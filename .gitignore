@@ -1,0 +1,14 @@
+#Ignore Mac System files
+.DS_Store
+
+#Skip complementary data
+complementary_data
+
+#Skip other experimental scripts
+train_simple_nn.py
+camera_predict.py
+hand-digits-recognizer
+data_generator.py
+
+#Skip models on root directory
+*.h5

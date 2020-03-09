@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/Users/gilson/Documents/Documents2/deepLearningTutorials/handDigitsRecognition/web-env/lib/node_modules
+export NPM_CONFIG_PREFIX=/Users/gilson/Documents/Documents2/deepLearningTutorials/handDigitsRecognition/web-env
+export npm_config_prefix=/Users/gilson/Documents/Documents2/deepLearningTutorials/handDigitsRecognition/web-env
+exec web-env/bin/node "$@"
